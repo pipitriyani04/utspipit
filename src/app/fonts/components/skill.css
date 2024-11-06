@@ -1,0 +1,19 @@
+#skillsSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Pusatkan secara horizontal */
+    justify-content: center; /* Pusatkan secara vertikal jika perlu */
+    text-align: center;
+    min-height: 100vh; /* Supaya bagian ini memenuhi tinggi layar */
+  }
+  
+  #skillsSection ul {
+    list-style-type: none; /* Hilangkan bullet point */
+    padding: 0;
+  }
+  
+  #skillsSection li {
+    font-size: 1.2em;
+    margin: 5px 0;
+  }
+  
